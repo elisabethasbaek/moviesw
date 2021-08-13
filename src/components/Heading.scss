@@ -1,0 +1,35 @@
+.heading{
+    color: rgb(85, 104, 69);
+    font-size: 1rem;
+    text-decoration: none;
+    display: grid;
+    align-items: center;
+
+    h1 .z{
+        color: #F08267;
+    }
+
+    &:visited{
+        color: rgb(85, 104, 69);
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .heading{
+        h1{
+            color: #FDE7BE;
+
+            .z{
+                color: #859479;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 450px){
+    .heading{
+        font-size: 0.7rem;
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Moviez",
+    "short_name": "Moviez",
+    "description": "Search movies, read about movies",
+    "start_url": "https://nervous-wozniak-a42096.netlify.app",
+    "scope": ".",
+    "background_color": "#FDE7BE",
+    "theme_color": "rgb(85, 104, 69)",
+    "display": "standalone",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/192.png",
+            "type": "image/png",
+            "sizes": "512x512"
+
+        },
+        {
+            "src": "/512.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ]
+}

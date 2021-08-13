@@ -1,0 +1,10 @@
+.singleView{
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+
+    &__menu{
+        display: flex;
+        gap: 2rem;
+    }
+}
