@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Heading from "../components/Heading";
-import PrevNext from "../components/PrevNext";
+/* import PrevNext from "../components/PrevNext"; */
 import Result from "../components/Result";
 import SearchBar from "../components/SearchBar";
 import SearchContext from "../SearchContext";
