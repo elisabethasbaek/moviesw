@@ -19,4 +19,12 @@ html{
     color: #FDE7BE;
     padding: 1rem 2rem;
     font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(85, 104, 69,0.2);
+}
+
+.notifyButton:hover{
+    color: #859479;
+    box-shadow: 2px 2px 5px rgba(85, 104, 69,0.3);
 }
