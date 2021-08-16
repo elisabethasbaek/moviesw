@@ -25,7 +25,7 @@ export default function App() {
     return (
         <SearchContext.Provider value={searchState}>
             <div className="App">
-                <button onClick={() => displayNotification()}>Notify me!</button>
+                <button className="notifyButton" onClick={() => displayNotification()}>Notify me!</button>
 
                 <Router>
                     <Results default path="/" />

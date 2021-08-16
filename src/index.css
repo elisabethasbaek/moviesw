@@ -9,3 +9,14 @@ html{
     color: rgb(85, 104, 69);
     font-family: 'Courier New', Courier, monospace;
 }
+
+.notifyButton{
+    margin: 1rem;
+    border: none;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F08267;
+    color: #FDE7BE;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
