@@ -16,9 +16,10 @@ export default function App() {
         if(Notification.permission === "granted"){
             navigator.serviceWorker.getRegistration()
                 .then(function(reg){
-                    reg.showNotification("Permission granted");
-                    console.log(reg);
-                })
+                    reg.showNotification("Watch your back. It's coming.", {
+                        vibrate: [100, 50, 200, 100, 100, 50, 200, 100, 100, 50, 200, 100]
+                    });
+                });
         }
     }
 
