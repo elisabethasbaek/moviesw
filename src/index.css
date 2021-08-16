@@ -12,7 +12,10 @@ html{
 
 .notifyButton{
     margin: 1rem;
-    border: none;
+    border-bottom: 2px solid #859479;
+    border-right: 2px solid #859479;
+    border-left: 2px solid rgb(255, 247, 236);
+    border-top: 2px solid rgb(255, 247, 236);
     outline: none;
     font-family: 'Courier New', Courier, monospace;
     background-color: #F08267;
@@ -21,10 +24,14 @@ html{
     font-size: 1.5rem;
     border-radius: 10px;
     font-weight: bold;
-    box-shadow: 5px 5px 10px rgba(85, 104, 69,0.2);
 }
 
 .notifyButton:hover{
-    color: #859479;
-    box-shadow: 2px 2px 5px rgba(85, 104, 69,0.3);
+    background-color: #859479;
+    color: #F08267;
+    cursor: pointer;
+    border-top: 2px solid #F08267;
+    border-left: 2px solid #F08267;
+    border-bottom: 2px solid rgb(255, 247, 236);
+    border-right: 2px solid rgb(255, 247, 236);
 }
